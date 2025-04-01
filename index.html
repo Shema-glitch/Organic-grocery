@@ -110,12 +110,12 @@
                 <h1>Category</h1>
                 <div class="all">
                     <a href="#">View All</a>
-                    <i class="fas fa-caret-left"></i>
-                    <i class="fas fa-caret-right"></i>
+                    <i class="fas fa-caret-left" id="scrollLeft"></i>
+                    <i class="fas fa-caret-right" id="scrollRight"></i>
                 </div>
             </div>
 
-            <div class="banner">
+            <div class="banner" id="scrollableContainer1">
                 <div class="banner-item">
                     <img src="./assets/category-thumb-1.jpg" alt="" srcset="">
                     <p>Fruits & Veges</p>
@@ -492,8 +492,596 @@
     <!-- End of Items on sale -->
 
     <!-- Featured Products Section -->
-     
-     <!-- End of Featured Products Section -->
+    <section class="featured-products">
+        <div class="featured-nav">
+            <h1>Featured Products</h1>
+            <div class="nav">
+                <a href="#">View All</a>
+                <i class="fas fa-caret-left" id="scrollReft"></i>
+                <i class="fas fa-caret-right" id="scrollLight"></i>
+            </div>
+        </div>
+
+        <div class="featured-grid" id="scrollableContainer2">
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Featured Products Section -->
+
+    <!-- Section: Discount Section Input -->
+    <Section class="input-dis">
+        <div class="input-ds">
+            <div class="text">
+                <h1>Get 25% Discount on your first purchase</h1>
+                <p>Just Sign Up & Register now to become a member</p>
+            </div>
+            <form action="#" method="get">
+                <input type="text" name="name" id="#" placeholder="Name">
+                <input type="email" name="email" id="#" placeholder="Email Address">
+                <button type="button">Submit</button>
+            </form>
+        </div>
+    </Section>
+    <!-- End of Discount Section Input-->
+
+    <!-- Most Popular Section -->
+    <section class="featured-products">
+        <div class="featured-nav">
+            <h1>Most Popular</h1>
+            <div class="nav">
+                <a href="#">View All</a>
+                <i class="fas fa-caret-left" id="scrollReft"></i>
+                <i class="fas fa-caret-right" id="scrollLight"></i>
+            </div>
+        </div>
+
+        <div class="featured-grid" id="scrollableContainer2">
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Most Popular section -->
+
+    <!-- Just Arrived Section -->
+    <section class="featured-products">
+        <div class="featured-nav">
+            <h1>Just Arrived</h1>
+            <div class="nav">
+                <a href="#">View All</a>
+                <i class="fas fa-caret-left" id="scrollReft"></i>
+                <i class="fas fa-caret-right" id="scrollLight"></i>
+            </div>
+        </div>
+
+        <div class="featured-grid" id="scrollableContainer2">
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="featured-item" id="parentDiv">
+                <div class="img">
+                    <img src="./assets/product-thumb-1.png" alt="">
+                </div>
+                <div class="info-item">
+                    <p class="info">Whole Wheat Sandwich Bread</p>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fas fa-star-half-alt"></i>
+                    </div>
+                    <div class="price-tag">
+                        <p class="discount">$24.00</p>
+                        <p class="actual">$18.00</p>
+                        <p class="discount-pg">10% OFF</p>
+                    </div>
+                    <div class="actions" id="childDiv">
+                        <input type="number" id="#" placeholder="1">
+                        <button class="add-to-cart"><i class="fa-solid fa-bag-shopping"></i>Add to Cart</button>
+                        <i class="fa-regular fa-heart" id="heart"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End of Just arrived section -->
+
+    <!-- Recent Blog section -->
+    <!-- End of Recent Blog Section -->
     <script src="script.js"></script>
 </body>
 
