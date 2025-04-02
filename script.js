@@ -16,17 +16,15 @@ featuredItems.forEach((item) => {
     item.addEventListener('mouseenter', () => {
         actions.style.display = 'block'; // Make the child visible
     });
-
     // Hide the actions when the hover ends
     item.addEventListener('mouseleave', () => {
         actions.style.display = 'none'; // Hide the child
     });
 })
 
-
+// Pages Dropdown
 dropDown.addEventListener('click', function () {
     dropDownContent.classList.toggle('show');
-
     dropDownContent.style.display = dropDownContent.style.display === 'flex' ? 'none' : 'flex';
 });
 

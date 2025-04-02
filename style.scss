@@ -195,9 +195,9 @@ header {
 
 }
 
-// end of Navbar Styles
+// End of: Navbar Styles
 
-// Section : Hero styles
+// Section: Hero styles
 .hero-section {
     background-image: url('./assets/banner-1.jpg');
     background-size: cover;
@@ -288,7 +288,7 @@ header {
             color: black;
             // background: #33ef;
             padding: 10px 0;
-            width: auto;
+            width: 50%;
             height: 100%;
             align-items: center;
             justify-content: space-between;
@@ -377,7 +377,7 @@ header {
     }
 }
 
-// end of Hero styles
+// End of: Hero styles
 
 // Section: Category styles
 .category-section {
@@ -471,7 +471,8 @@ header {
         }
     }
 }
-// end of Category styles
+
+// End of: Category styles
 
 // Section: Best-selling styles
 .best-section {
@@ -680,7 +681,8 @@ header {
         }
     }
 }
-// end of Best-selling styles
+
+// End of: Best-selling styles
 
 // Section: Items-on-sale styles
 .items-on-sale {
@@ -796,7 +798,7 @@ header {
     }
 }
 
-// End of Items-on-sale styles
+// End of: Items-on-sale styles
 
 // Section: Featured-products styles
 .featured-products {
@@ -997,15 +999,17 @@ header {
     }
 }
 
-// End of Featured Products styles
-.input-dis {
+// End of: Featured Products styles
+
+// Section: Discount Section input Styles
+.input-disc {
     display: flex;
     // background: #ffa7a7;
     align-items: center;
     justify-content: center;
     padding: 40px 0 20px 0;
 
-    .input-ds{
+    .input-ds {
         background-image: url(./assets/banner-newsletter.jpg);
         background-position: center;
         background-repeat: no-repeat;
@@ -1017,33 +1021,35 @@ header {
         gap: 20px;
         color: white;
 
-        .text{
+        .text {
             text-align: start;
             // background: #000;
             width: 30%;
-            h1{
+
+            h1 {
                 font-size: 35px;
                 font-weight: 500;
             }
-            p{
+
+            p {
                 font-size: 16px;
             }
         }
 
-        form{
+        form {
             display: flex;
             width: 30%;
             // background: #af4b4b;
             flex-direction: column;
             gap: 20px;
 
-            input{
+            input {
                 outline: none;
                 border: none;
                 padding: 10px;
             }
 
-            button{
+            button {
                 background: #000;
                 color: white;
                 outline: none;
@@ -1054,4 +1060,463 @@ header {
         }
     }
 }
-// Section: Discount Section input Styles
+
+// End of: Discount Section input Styles
+
+// Section: Recently-blog styles
+.recent-blog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px 40px;
+    // background: #000;
+
+    .recent-blog-holder {
+        // background: yellow;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        // align-items: center;
+        justify-content: center;
+        padding: 0px 0px 40px 0;
+
+
+        .blog-nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 10px 40px;
+            margin-top: 20px;
+
+            h1 {
+                font-weight: 600;
+                // font-size: 25px;
+                color: rgb(0, 0, 0);
+            }
+
+            a {
+                background: #5a9b45;
+                padding: 10px 15px;
+                text-decoration: none;
+                color: white;
+                font-size: 14px;
+                border-radius: 10px;
+            }
+        }
+
+        .blog-grid {
+            display: flex;
+            gap: 10px;
+            padding: 10px 40px;
+            scroll-behavior: smooth;
+            width: 100%;
+            height: 100%;
+            // background: #7a5f5f;
+
+            .blog-item {
+                flex: 1 1 auto;
+                height: 500px;
+                // background-color: #f1f1f1;
+                border-radius: 5px;
+                display: flex;
+                // justify-content: center;
+                align-items: start;
+                flex-direction: column;
+                font-size: 16px;
+                cursor: pointer;
+                padding: 10px;
+                box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+
+                img {
+                    height: 65%;
+                    // object-fit: cover;
+                    width: 100%;
+                    height: 90%;
+                    border-radius: 5px;
+                }
+
+                .info {
+                    display: flex;
+                    // background: yellow;
+                    margin: 5px 0;
+                    gap: 20px;
+                    margin: 10px 0px 0px 10px;
+
+                    .date {
+                        gap: 5px;
+                        align-items: center;
+                        display: flex;
+                        font-size: 15px;
+                        color: #747474;
+                    }
+
+                    .file {
+                        align-items: center;
+                        display: flex;
+                        font-size: 15px;
+                        color: #747474;
+                        gap: 5px;
+                    }
+                }
+
+                .blog-title {
+                    font-weight: 600;
+                    color: #000;
+                    width: 80%;
+                    margin: 5px 0px 5px 10px;
+                }
+
+                .blog-parg {
+                    // font-size: 15px;
+                    color: #747474;
+                    width: 80%;
+                    font-weight: 200;
+                    margin: 0px 0px 40px 10px;
+                }
+            }
+        }
+    }
+}
+
+// End of: Recently-blog styles
+
+// Section: Download the App styles
+.download {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background: beige;
+    height: 40vh;
+    margin: 0px 0 20px 0;
+
+    .download-holder {
+        background: #ffc107;
+        width: 92%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // padding-top: 20px;
+        border-radius: 20px;
+        gap: 50px;
+
+        .link-download {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h1 {
+                font-weight: 500;
+                font-size: 30px;
+            }
+
+            p {
+                color: #747474;
+                margin: 0 0 10px 0;
+            }
+
+            .links {
+                display: flex;
+                flex-direction: row;
+                gap: 10px;
+            }
+        }
+
+        .mobile {
+            // width: 100%;
+            height: 100%;
+            // background: #000;
+
+            img {
+                height: 100%;
+            }
+        }
+    }
+}
+
+// End of: Download the App styles
+
+// Section: People are also looking for' styles
+.lookin-for {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background: #c8efff;
+    width: 100%;
+    height: 25vh;
+    // padding: 20px 0;
+
+    .lookin-for-holder {
+        // background: #a3ceff;
+        width: 91%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 20px 20px;
+        gap: 20px;
+
+        .lookin-for-head {
+            // background: #daabab;
+            width: 100%;
+        }
+
+        .bento-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            // max-width: 1200px;
+            width: 100%;
+            margin: 0 auto;
+            // background: #000;
+
+            .bento-item {
+                background-color: #f8f6e9;
+                border-radius: 12px;
+                padding: 10px 14px;
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 14px;
+                color: #5a5a5a;
+                border: 1px solid rgba(0, 0, 0, 0.05);
+                transition: all 0.2s ease;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+                max-width: 100%;
+                cursor: pointer;
+
+            }
+
+            .bento-item:hover {
+                background-color: #f0ecd7;
+                transform: translateY(-2px);
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+        }
+    }
+}
+
+// End of: People are also looking for' styles
+
+// Section: Perks styles
+.perks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background: #ffffeb;
+    width: 100%;
+    height: 25vh;
+
+    .perks-holder {
+        width: 91%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 20px 20px;
+        gap: 20px;
+        // background: #ffd8d8;
+
+        .perks-grid {
+            display: flex;
+            // background: #bfffff;
+            width: 100%;
+            height: 100%;
+            // padding: 10p/x;
+            gap: 10px;
+
+            .perk-item {
+                // background: #000;
+                color: white;
+                border: 1px solid;
+                border-radius: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: start;
+                justify-content: center;
+                padding: 0 10px;
+                border: 2px solid #eee;
+
+                i {
+                    color: #97999a;
+                    font-size: 30px;
+                    margin: 0 0px 10px 0;
+                }
+
+                h1 {
+                    font-weight: 500;
+                    margin: 0 0 10px 0;
+                }
+
+                p {
+                    font-weight: 400;
+                    color: #5a5a5a;
+                }
+            }
+        }
+    }
+}
+
+// End of: Perks styles
+
+// Section: Organinc Footer links
+.footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    // background: #daffcc;
+    width: 100%;
+    height: 40vh;
+
+    .footer-links-holder {
+        width: 91%;
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        padding: 20px 20px;
+        gap: 20px;
+        // background: #d8fff8;
+
+        .footer-links-grid {
+            display: flex;
+            // background: #31aaaa;
+            align-items: center;
+            width: 100%;
+            height: 95%;
+            // padding: 10px;
+            gap: 10px;
+
+            .footer-links-item {
+                flex: 1 1 auto;
+                height: 90%;
+                // background-color: #f1f1f1;
+                border-radius: 5px;
+                display: flex;
+                // justify-content: center;
+                align-items: start;
+                flex-direction: column;
+                font-size: 16px;
+                cursor: pointer;
+                padding: 0px 10px;
+                gap: 10px;
+
+                a {
+                    text-decoration: none;
+                    color: #747474;
+
+                    &:hover {
+                        color: #000;
+                    }
+                }
+
+                h1 {
+                    font-weight: 600;
+                    font-size: 20px;
+                }
+
+                img {
+                    height: 20%;
+                    margin-bottom: 10px;
+                }
+
+                .socials {
+                    display: flex;
+                    // background: yellowgreen;
+                    width: 90%;
+                    align-items: center;
+                    justify-content: space-around;
+
+                    i {
+                        font-size: 20px;
+                        border: 1px solid #efefef;
+                        padding: 5px 10px;
+                        color: #747474;
+                        transition: .2s ease;
+
+                        &:hover {
+                            color: black;
+                        }
+                    }
+                }
+            }
+
+            .footer-link-item {
+                // background: #ffd3d3;
+                width: 25%;
+                height: 90%;
+                padding: 0px 10px;
+                gap: 10px;
+                display: flex;
+                // align-items: center;
+                flex-direction: column;
+                justify-content: center;
+
+                p {
+                    color: #747474;
+                    margin-bottom: 20px;
+                }
+
+                h1{
+                    font-weight: 600;
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                }
+
+                .sub {
+                    // background: yellow;
+                    height: 100%;
+
+                    input {
+                        padding: 20px 15px;
+                        outline: none;
+                        border: none;
+                        height: 30px;
+                        width: 60%;
+                        background: #f8f8f8;
+                        border-radius: 5px 0px 0px 5px;
+                        margin-right: 10px;
+                    }
+
+                    input::placeholder {
+                        font-size: 15px;
+                    }
+
+                    button {
+                        padding: 10px 15px;
+                        outline: none;
+                        border: none;
+                        background: #212529;
+                        border-radius: 0 5px 5px 0;
+                        color: white;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// End of: Organic Footer links 
+
+footer{
+    // background: greenyellow;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    justify-content: center;
+
+    span{
+        font-weight: 600;
+
+        i{
+            font-size: 20px;
+        }
+    }
+}
