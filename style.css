@@ -824,19 +824,19 @@ header {
 .input-disc {
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 40px 0 20px 0;
+  padding: 0px 0 20px 0;
+  height: 50vh;
 }
 .input-disc .input-ds {
-  background-image: url(./assets/banner-newsletter.jpg);
+  background-image: url("./assets/banner-newsletter.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  width: 90%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 0;
   gap: 20px;
+  height: 50vh;
   color: white;
 }
 .input-disc .input-ds .text {
@@ -844,7 +844,7 @@ header {
   width: 30%;
 }
 .input-disc .input-ds .text h1 {
-  font-size: 35px;
+  font-size: 45px;
   font-weight: 500;
 }
 .input-disc .input-ds .text p {
